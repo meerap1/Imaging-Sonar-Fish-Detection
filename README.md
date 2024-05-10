@@ -1,6 +1,6 @@
-# Imaging-Sonar-Fish-Detection
-This GitHub repository is designed for detecting fish in imaging sonar.
-![image](https://github.com/meerap1/Imaging-Sonar-Fish-Detection/assets/156745402/fc4c23b5-9221-45b5-93cf-d7af0ccedacb)
+# FISH-DETECTION
+A robust fish detection model for real-time underwater fish detection in any marine environments using yolov7.
+![Screenshot 2024-04-12 105641](https://github.com/meerap1/FISH-DETECTION/assets/156745402/4e4f685c-247d-44a7-b076-523683229a50)
 
 ## Table of Content
 1. Introduction
@@ -14,10 +14,10 @@ This GitHub repository is designed for detecting fish in imaging sonar.
 9. Inferences
 
 ### Introduction
-I'm excited to share with you my latest project: a YOLOv7 model for Imaging snar fish detection. Leveraging state-of-the-art deep learning techniques, this model is designed to accurately identify and localize fish in images. Utilizing Anaconda Prompt, I've crafted an environment where you can easily set up and run the model on your own machine.
+I'm excited to share with you my latest project: a YOLOv7 model for fish detection. Leveraging state-of-the-art deep learning techniques, this model is designed to accurately identify and localize fish in images. Utilizing Anaconda Prompt, I've crafted an environment where you can easily set up and run the model on your own machine.
 
 ### Data Source:
-The data used in this repository for fish object detection in marine sonar videos, which is a primary data collected and annotated. A subset of over 1500 + images and labels from this dataset was selected for training purposes. This curated dataset encompasses both positive and negative images, where positive images contain instances of fish, annotated with bounding boxes and class labels, while negative images depict marine scenes without fish objects. <br/>
+The data used in this repository for fish object detection in marine videos was sourced from another repository, which provided annotated video clips. A subset of over 1500 + images and labels from this dataset was selected for training purposes. This curated dataset encompasses both positive and negative images, where positive images contain instances of fish, annotated with bounding boxes and class labels, while negative images depict marine scenes without fish objects. <br/>
 <br/>
 Furthermore, the dataset organization involves dividing the images and labels into train and val folders. Within each of these folders, there are two subfolders: one containing images and the other containing corresponding labels. <br/>
 <br/>
@@ -87,6 +87,5 @@ The output will be saved in the 'exp' folder within the 'detect' directory under
 In my case, no detections are made in the images, whereas fish are getting detected in the videos.
 ### Inferences
 It appears that not all fish are being detected accurately. Further work is needed to improve the detection performance. In conclusion, while the model shows promise in detecting fish in videos, refinement is required to achieve consistent and reliable detection across various scenarios and types of images.
-
 
 
