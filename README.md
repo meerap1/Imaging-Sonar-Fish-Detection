@@ -1,6 +1,7 @@
 # FISH-DETECTION
 A robust fish detection model for real-time underwater fish detection in any marine environments using yolov7.
-![Screenshot 2024-04-12 105641](https://github.com/meerap1/FISH-DETECTION/assets/156745402/4e4f685c-247d-44a7-b076-523683229a50)
+![Screenshot 2024-05-03 204341](https://github.com/meerap1/Imaging-Sonar-Fish-Detection/assets/156745402/845d6855-9249-46f0-99ef-696052dbbb84)
+
 
 ## Table of Content
 1. Introduction
